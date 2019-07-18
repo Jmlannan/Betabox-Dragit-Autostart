@@ -4,8 +4,8 @@ After=multi-user.target
 
 [Service]
 Type=idle
-WorkingDirectory=/home/pi/SunFounder_Dragit
-ExecStart=/home/pi/SunFounder_Dragit/Dragit/start
+WorkingDirectory=/home/pi/sensorcar/BetaboxDragit/Dragit
+ExecStart=/home/pi/sensorcar/BetaboxDragit/Dragit/start
 
 [Install]
 WantedBy=multi-user.target
