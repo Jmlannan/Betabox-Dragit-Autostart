@@ -1,0 +1,11 @@
+[Unit]
+Description=Pi Car Dragit Starter Service
+After=multi-user.target
+
+[Service]
+Type=idle
+WorkingDirectory=/home/pi/SunFounder_Dragit
+ExecStart=/home/pi/SunFounder_Dragit/Dragit/start
+
+[Install]
+WantedBy=multi-user.target
